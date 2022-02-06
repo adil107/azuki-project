@@ -133,7 +133,10 @@ function Navbar() {
                 </Link>
               </li>
               <li className="h5 pb-3 d-block mobList mt-2 border-bottom">
-                <a className="d-flex justify-content-between align-items-center text-dark">
+                <a
+                  className="d-flex justify-content-between align-items-center text-dark"
+                  href="#"
+                >
                   TWITTER{" "}
                   <span className="">
                     <BsTwitter />
@@ -141,7 +144,10 @@ function Navbar() {
                 </a>
               </li>
               <li className="h5 pb-3 d-block mobList mt-2 border-bottom">
-                <a className="d-flex justify-content-between align-items-center text-dark">
+                <a
+                  className="d-flex justify-content-between align-items-center text-dark"
+                  href="#"
+                >
                   DISCORD{" "}
                   <span className="">
                     <FaGamepad />
@@ -149,7 +155,10 @@ function Navbar() {
                 </a>
               </li>
               <li className="h5 d-block mobList mt-2">
-                <a className="d-flex justify-content-between align-items-center text-dark">
+                <a
+                  className="d-flex justify-content-between align-items-center text-dark"
+                  href="#"
+                >
                   OPENSEA{" "}
                   <span className="rounded-circle bg-dark text-white d-flex justify-content-center align-items-center">
                     <GiSailboat />
