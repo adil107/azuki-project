@@ -1,0 +1,552 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* NavBar */
+
+.logo-section{
+    width:77px;
+    height:28px ;
+    background: #b9183b;
+}
+.logo-img{
+    width: 80%;
+}
+.nav-item{
+    height: 28px;
+    background: rgba(255,255,255,.2);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item:hover{
+    background: rgba(255,255,255,.6);
+    transition-duration: 1.5s;
+}
+.nav{
+    list-style: none;
+}
+.nav-link{
+    color: black;
+    font-size: 11px;
+}
+.nav-link:hover{
+    color: black;
+}
+.icon{
+    font-size: 18px;
+}
+.navBtn{
+    border: none;
+    background: rgba(255,255,255,.3);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBtn:hover{
+    background: rgba(255,255,255,.6);
+}
+.soon{
+    position: absolute;
+    top: -9px;
+    right: -3px;
+    font-size: 10px;
+    border-radius: 3px;
+}
+.webNav{
+    z-index: 6;
+}
+
+/* Mobile View Navbar */
+
+.mobNavbar{
+    width: 100%;
+    height: 100vh;
+    background: rgba(255,255,255,.95);
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+}
+.close{
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+}
+.mobList{
+    font-weight: 900;
+}
+.mob-soon{
+    font-size: 12px;
+}
+.shop{
+    color: lightgray;
+}
+
+/* HOME */
+
+.webImg{
+    width: 100%;
+    height: 100vh;
+    background: url('./images/placeholder.jpg') no-repeat center/cover;
+}
+.mobImg{
+    width: 100%;
+    height: 100vh;
+    background: url('./images/mobile.jpg') no-repeat center/cover;
+}
+.home{
+    position: relative;
+}
+
+/* THE GARDEN */
+
+.page{
+    width: 100%;
+    height: 100vh;
+}
+.bgImg{
+    width: 100%;
+    height: 100%;
+}
+.gardenImg{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+.head2{
+    color: #E5E5E5;
+}
+
+/* Manifesto */
+
+.manifesto{
+    background: #000;
+    color: white !important;
+    position: relative;
+}
+.heading{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 43px;
+}
+.head{
+    color: #E5E5E5;
+    opacity: .2;
+}
+.hr{
+    width: 100%;
+    height: 1px;
+    background: #E5E5E5;
+    opacity: .2;
+}
+.para{
+    line-height: 24px;
+    font-size: 13px;
+}
+
+/* MINDMAP */
+
+.mindmap{
+    background: #f3f1f1;
+    width: 100%;
+    height: auto;
+}
+.heading2{
+    font-size: 60px;
+    font-weight: 900;
+}
+.mindmap-detail{
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.mindmap-img{
+    width: 60%;
+}
+.grid-box{
+    height: 610px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 24.5% 24% 49%;
+    grid-column-gap: 8px;
+}
+.vision{
+    height: 60%;
+    background: #E5E5E5;
+}
+.community{
+    height: 40%;
+    background: #E5E5E5;
+}
+.metaverse{
+    height: 40%;
+    background: #E5E5E5;
+}
+.physical{
+    height: 60%;
+    background: #E5E5E5;
+}
+.vision2{
+    height: 60%;
+}
+.vision2-child{
+    background: #E5E5E5;
+}
+.Img01{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50%;
+    opacity: .3;
+}
+.parent01:hover .Img01{
+    opacity: 1;
+}
+.parent01{
+    position: relative;
+    cursor: pointer;
+}
+.Img02{
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 80%;
+    opacity: .3;
+}
+.parent02:hover .Img02{
+    opacity: 1;
+}
+.parent02{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.Img03{
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 80%;
+    height: 95%;
+    opacity: .3;
+}
+.parent03:hover .Img03{
+    opacity: 1;
+}
+.parent03{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.Img04{
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 80%;
+    height: 60%;
+    opacity: .3;
+}
+.parent04:hover .Img04{
+    opacity: 1;
+}
+.parent04{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.Img05{
+    position: absolute;
+    bottom: -60px;
+    right: -60px;
+    width: 80%;
+    height: 60%;
+    opacity: .3;
+}
+.parent05:hover .Img05{
+    opacity: 1;
+}
+.parent05{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.Img06{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 60%;
+    height: 30%;
+    opacity: .3;
+}
+.parent06:hover .Img06{
+    opacity: 1;
+}
+.parent06{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.Img07{
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    width: 20%;
+    height: 70%;
+    opacity: .3;
+}
+.parent07:hover .Img07{
+    opacity: 1;
+}
+.parent07{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.ImgNo{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.ImgNo h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #cac4c4;
+}
+.ImgNo h5{
+    font-size: 14px;
+    font-weight: 500;
+}
+.img07No{
+    opacity: .3;
+}
+.arrowIcon1{
+    visibility: hidden;
+    font-size: 16px;
+}
+.parent01:hover .arrowIcon1{
+    visibility: visible;
+    font-size: 17px;
+    transition: 1s;
+}
+.arrowIcon2{
+    visibility: hidden;
+    font-size: 16px;
+}
+.parent02:hover .arrowIcon2{
+    visibility: visible;
+    font-size: 17px;
+    transition: 1s;
+}
+.arrowIcon3{
+    visibility: hidden;
+    font-size: 16px;
+}
+.parent03:hover .arrowIcon3{
+    visibility: visible;
+    font-size: 17px;
+    transition: 1s;
+}
+.arrowIcon4{
+    visibility: hidden;
+    font-size: 16px;
+}
+.parent04:hover .arrowIcon4{
+    visibility: visible;
+    font-size: 17px;
+    transition: 1s;
+}
+.arrowIcon5{
+    visibility: hidden;
+    font-size: 16px;
+}
+.parent05:hover .arrowIcon5{
+    visibility: visible;
+    font-size: 17px;
+    transition: 1s;
+}
+.arrowIcon6{
+    visibility: hidden;
+    font-size: 16px;
+}
+.parent06:hover .arrowIcon6{
+    visibility: visible;
+    font-size: 17px;
+    transition: 1s;
+}
+.arrowIcon7{
+    visibility: hidden;
+    font-size: 16px;
+}
+.parent07:hover .arrowIcon7{
+    visibility: visible;
+    font-size: 17px;
+    transition: 1s;
+}
+.detailpage01{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: white;
+}
+.grandParent{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.page01Detail{
+    position: absolute;
+    top: 0px;
+    left:3%;
+    width: 94%;
+    height: 100%;
+    background: #f0e6e6;
+    visibility: hidden;
+}
+.heading3{
+    font-size: 36px;
+    font-weight: 700;
+}
+.ourVision{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.ourVisionSpan{
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 16px;
+}
+.sign{
+    color: #c8c7c7;
+}
+.ourCommunity{
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: -2px 2px 1.8px rgb(255 215 130 / 70%);
+    background-image: linear-gradient(to right, #ffde82, white);
+    border-radius: 5px;
+}
+.closeDetail{
+    font-size: 30px;
+    cursor: pointer;
+}
+.Img01-detail{
+    width: 70%;
+}
+.page02Detail{
+    position: absolute;
+    top: 0px;
+    left:3%;
+    width: 94%;
+    height: auto;
+    background: #f0e6e6;
+    visibility: hidden;
+}
+.bold700{
+    font-size: 14px;
+    font-weight: 700;
+}
+.Img02-detail{
+    width: 90%;
+}
+.page04Detail{
+    position: absolute;
+    top: 0px;
+    left:3%;
+    width: 94%;
+    min-height: 100%;
+    max-height: auto;
+    background: #f0e6e6;
+    visibility: hidden;
+}
+.Img04-detail{
+    width: 100%;
+}
+.page04Text{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.badge{
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#rotate-text{
+    font-size: 12px;
+    font-weight: 700;
+}
+.page06Detail{
+    position: absolute;
+    top: 0px;
+    left:3%;
+    width: 94%;
+    height: auto;
+    background: #f0e6e6;
+    visibility: hidden;
+}
+.page07Detail{
+    position: absolute;
+    top: 0px;
+    left:3%;
+    width: 94%;
+    height:100vh;
+    color: white;
+    visibility: hidden;
+}
+.Img07-detail{
+    width: 50%;
+}
+.connectText{
+    font-size: 14px;
+    font-weight: 500;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.inp{
+    border: none;
+    outline: none;
+    letter-spacing: 2px;
+}
+.inpParent{
+    height: 35vh;
+    position: relative;
+}
+.submit{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: pink;
+    opacity: .8;
+    visibility: hidden;
+}
+.submitBtn{
+    border: none;
+    outline: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.submitMsg{
+    color: pink;
+    opacity: .8;
+}
+.page05Detail{
+    position: absolute;
+    top: 0px;
+    left:3%;
+    width: 94%;
+    height: auto;
+    background: #f0e6e6;
+    /* visibility: hidden; */
+}
