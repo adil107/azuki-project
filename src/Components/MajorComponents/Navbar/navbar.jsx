@@ -133,37 +133,37 @@ function Navbar() {
                 </Link>
               </li>
               <li className="h5 pb-3 d-block mobList mt-2 border-bottom">
-                <a
+                <p
                   className="d-flex justify-content-between align-items-center text-dark"
-                  href={"#"}
+                  style={{ cursor: "pointer" }}
                 >
                   TWITTER{" "}
                   <span className="">
                     <BsTwitter />
                   </span>
-                </a>
+                </p>
               </li>
               <li className="h5 pb-3 d-block mobList mt-2 border-bottom">
-                <a
+                <p
                   className="d-flex justify-content-between align-items-center text-dark"
-                  href={"#"}
+                  style={{ cursor: "pointer" }}
                 >
                   DISCORD{" "}
                   <span className="">
                     <FaGamepad />
                   </span>
-                </a>
+                </p>
               </li>
               <li className="h5 d-block mobList mt-2">
-                <a
+                <p
                   className="d-flex justify-content-between align-items-center text-dark"
-                  href={"#"}
+                  style={{ cursor: "pointer" }}
                 >
                   OPENSEA{" "}
                   <span className="rounded-circle bg-dark text-white d-flex justify-content-center align-items-center">
                     <GiSailboat />
                   </span>
-                </a>
+                </p>
               </li>
             </ul>
           </nav>
