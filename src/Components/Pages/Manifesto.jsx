@@ -115,7 +115,12 @@ function Manifesto() {
               </div>
               <ul className="nav w-100 mx-md-4 mx-2 mt-3 pl-2 d-flex flex-column">
                 <li className="h5 pb-3 mobList border-bottom">
-                  <Link className="text-dark">HOME</Link>
+                  <Link
+                    className="text-dark"
+                    style={{ textTransform: "uppercase" }}
+                  >
+                    home
+                  </Link>
                 </li>
                 <li className="h5 pb-3 d-block mobList mt-2 border-bottom">
                   <Link className="text-dark">GALLERY</Link>
